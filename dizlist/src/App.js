@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Refresher from './components/Title';
+import DummyData from './dummydata/DummyData';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Refresher />
+      <DummyData />
     </div>
   );
 }
