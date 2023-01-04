@@ -1,6 +1,8 @@
 function Refresher() {
     return (
-        <h2>Title?</h2>
+        <div>
+        <h1>Dizlist 1.1</h1>
+        </div>
     )
 }
 

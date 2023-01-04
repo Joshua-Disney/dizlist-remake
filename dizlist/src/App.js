@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Refresher from './NewFile';
+import Refresher from './components/Title';
+import DummyData from './dummydata/DummyData';
 
 function App() {
   return (
     <div className="App">
-      <h1>DIZLIST 1.1</h1>
       <Refresher />
+      <DummyData />
     </div>
   );
 }
